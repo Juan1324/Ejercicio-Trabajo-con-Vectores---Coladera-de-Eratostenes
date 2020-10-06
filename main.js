@@ -7,3 +7,8 @@ for(x=2;x<z;x++){
         numerosPrimos[x*c]=0;
     }
 }
+for(x=2;x<z;x++){
+    if(numerosPrimos[x]){
+        console.log(x)
+    }
+}
